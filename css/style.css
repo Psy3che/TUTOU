@@ -1,0 +1,171 @@
+/* styles.css */
+
+/* 设置全局字体和背景颜色 */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFC0CB;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+/* 删除重复的样式规则 */
+h1 {
+  color: red;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+/* 删除未使用的样式 */
+p {
+  color: blue;
+}
+
+/* 确保每个样式规则只出现一次 */
+h2 {
+  color: green;
+  font-size: 18px;
+}
+
+h3 {
+  color: green;
+  font-size: 16px;
+}
+
+/* 导航菜单样式 */
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+    text-align: center; /* 将导航菜单居中显示 */
+}
+
+header nav ul li {
+  display: inline-block;
+}
+
+header nav ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  background-color: #555;
+}
+/* 页面内容样式 */
+.content {
+  margin: 20px;
+}
+.center { margin: 0 auto; width: 720px; height: 480px; }
+h1 {
+  color: #333;
+   text-align: center;
+}
+h2 {
+  color: #333;
+   text-align: center;
+}
+
+p {
+  color: #666;
+}
+
+.container 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.gallery-image {
+    margin: 10px;
+}
+
+.image-container img {
+  width: 200px; /* 调整图片宽度 */
+  margin-right: 0px; /* 调整图片间距 */
+  text-align: center;
+}
+ .rental-process {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .process-step {
+            flex-basis: 33.33%;
+            padding: 10px;
+        }
+		.container {
+		  display: flex;
+		  flex-direction: column;
+		}
+		
+		.row {
+		  display: flex;
+		}
+		
+		.column {
+		  flex: 1;
+		}
+.rental-process {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.process-step {
+    flex-basis: 33.33%;
+    text-align: center;
+    padding: 20px;
+}
+ header {
+            background-color: #fff;
+            padding: 10px;
+        }
+
+
+        .content h2 {
+            margin-top: 0;
+        }
+        header {
+            background-color: #fff;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            color: #333;
+            text-decoration: none;
+            padding: 5px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
